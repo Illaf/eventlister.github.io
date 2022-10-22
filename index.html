@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event lister</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div class="left">
+            
+            <div></div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+
+                <li> <a href="#" class="active">home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">events this week</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button>Call us now</button><button>Email us</button>
+        </div>
+    </header>
+    
+    <div class="firstcontainer">
+        <!-- <div class="image">
+            <img src="party image.jpg" alt="image not found">
+        </div> -->
+        
+        Explore the latest events
+    </div>
+    <div class="heading" >Upcoming events</div>
+    <div class="container text-center">
+        <div class="raw glow-raw"> 
+          <div class="col1" style="display: flex;">
+            <div class="coltext" id="block1">
+                Quiz competition
+               <a href="quiz.html"> <button>view more</button></a>
+            </div>
+            
+            
+            
+          </div>
+          <div class="col2" style="display: flex;">
+            <div class="coltext" id="block2">
+                live seminar on healthy life
+               <a href="seminar.html"> <button>view more</button></a>
+            </div>
+            
+          </div>
+          <div class="col3" style="display: flex;">
+            <div class="coltext" id="block3">
+                Techfest 2022|IITBombay
+               <a href="techfest.html"> <button>view more</button></a>
+               
+            </div>
+            
+            
+          </div>
+          <div class="button"></div>
+         </div> 
+         <div class="container2 text-center">
+            <div class="raw"> 
+              <div class="col4" style="display: flex;">
+                <div class="coltext">
+                    Writing competition
+                    <button>view more</button>
+                </div>
+                
+              </div>
+              <div class="col5" style="display: flex;">
+                <div class="coltext">
+                    AI workshop
+                    <button>view more</button>
+                </div>
+                
+              </div>
+              <div class="col6" style="display: flex;">
+                <div class="coltext">
+                    trance party
+                    <button>view more</button>
+                </div>
+              </div>
+             </div> 
+             <input type="text" placeholder="Search events" id="filter_users"/>
+
+    <ul id="users-list">
+    
+    </ul>
+            
+             <div class="filterevents">
+                <section>
+                    <h1>Filter Events</h1>
+                    <ul id="fill">
+                        <li class="active">All Events</li>
+                        <li>sports</li>
+                        <li>parties</li>
+                        <li>academics</li>
+                        <li>seminars</li>
+                    </ul>
+            
+                    <div class="product">
+                       
+                    </div>
+                </section>
+
+                <script>
+                    const liItem = document.querySelectorAll('ul li');
+                    const imgItem = document.querySelectorAll('.product img');
+            
+                    liItem.forEach(li => {
+                       li.onclick = function() {
+                        //active
+                        liItem.forEach(li => {
+                            li.className = "";
+                        })
+                        li.className = "active";
+            
+                        //Filter
+                        const value = li.textContent;
+                        imgItem.forEach(img => {
+                            div.style.display = 'none';
+                            if (img.getAttribute('data-filter') == value.toLowerCase() || value == "All Menu") {
+                                img.style.display = 'block';
+                            }
+                        })
+                       }
+                    });
+                </script>
+             </div>
+    <div class="container3">
+        <div class="nav2">
+            
+            <nav style="margin-left: 367px;">
+                Host an event
+            </nav>
+            <a href="event.html"><button class="btn">CREATE EVENT</button></a>
+        </div>
+    </div>
+    <div class="container4">
+       <a href="location.html"> <h3>search an event location here</h3></a>
+    </div>
+</body>
+</html>

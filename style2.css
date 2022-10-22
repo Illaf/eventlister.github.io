@@ -1,0 +1,203 @@
+.about{
+    
+        font-style: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        margin: 159px;
+        padding: 0px;
+        font-size: 40px;
+    margin-left: 80px;
+    border: 2px black;
+    margin-bottom: 50px;
+       
+        
+    }
+    .content{
+        margin-left: 80px;
+    }
+    .quiz button{
+        margin-top: 40px;
+        margin-left: 80px;
+    }
+.fees{
+    margin-top: 40px;
+    margin-left: 80px;   
+}
+.info{
+    margin-top: 149px;
+    margin-left: 80px;   
+}
+.contactForm{
+    text-align: left;
+    padding:0px 34px;
+        
+        margin-top: 56px;
+        margin-left: 98px;
+    }
+    .contactForm  form div{
+    padding: 17px;
+    
+    }
+    .main #emailHelp{
+        margin: 6px -16px;
+        color: rgb(22, 100, 145);
+    }
+    /* #Clientemail{ 
+        border-radius: 10px;
+    }*/
+    .contactForm form div{
+        border-radius: 10px;
+    }
+    .btn btn-primary{
+        color: white;
+        background-color:rgb(23,54,67) ;
+    }
+    .form-button{
+        color: white;
+        background-color: rgb(23,54,67);
+        padding: 5px 4px 4px 4px;
+        border-radius: 5px;
+       cursor: pointer;
+    }
+    button.form-button:hover{
+    background-color: white;
+        color: rgb(23,54,67);
+        
+    }
+    .maps{
+        display: flexbox;
+        
+        margin-right: 68px;
+    margin-left: 712px;
+    width: fit-content;
+    font-size: 25px;
+    font-style: italic;
+    }
+    .container4{
+        display: flex;
+        width: 500px;
+        height: 50px;
+        border: 2px black;
+        margin-left: 66px;
+    margin-top: 30px;
+    }
+    .h3{
+        padding: 15px;
+    }.loc{
+       
+        display: flex;
+    margin-left: 796px;
+    width: 288px;
+    height: 315px;
+    margin-bottom: 113px;
+    }
+    
+   
+    
+     h1,ul,li{
+        margin: 0;
+        padding: 0;
+    }
+    
+    section{
+        width: 85%;
+        margin: 50px auto;
+    }
+    section h1{
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+        color: black;
+        font-size: 2em;
+    }
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.57);
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+    ul li{
+        list-style: none;
+        background-color: blue;
+        padding: 5px 10px;
+        margin: 0 10px;
+        cursor: pointer;
+        font-size: 1.2em;
+        border-radius: 7px;
+    }
+    ul li.active{
+        background-color: rgba(41, 255, 41, 0.897);
+    }
+    .product{
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .product img{
+        width: 200px;
+        height: 180px;
+        margin-bottom: 10px;
+    }
+    .navbar {
+        padding: 0px 25px;
+        display: inline-block;
+    }
+    
+    .navbar li {
+    
+        display: inline-block;
+    }
+    
+    .navbar li a {
+        color: blue;
+    background-color: white;
+        padding: 34px 22px;
+        font-size: larger;
+        text-decoration: none;
+    }
+    
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: gray;
+    
+    } 
+    
+    .product div {
+        display: flex;
+        border: 2px solid black;
+        padding: 8px;
+        margin: 13px;
+        border-radius: 7px;
+    }
+    #filter_users{
+        width:100%;
+        padding:10px;
+      }
+      
+      #users-list{
+        margin:0;
+        padding:0;
+      }
+      
+      #users-list li{
+        list-style:none;
+        padding:10px;
+        margin:5px 0;
+        border: 1px solid #e4e4e4;
+      }
+      .container3{
+        padding: 3px 27px;
+        margin: 21px 45px;
+      }
+      .container3 button{
+        font-size: 12px;
+        padding: 19px 14px;
+      }
